@@ -1,0 +1,58 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2f2d2a;
+  padding: 15px;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ffc107;
+}
+
+.navbar-links,
+.auth-section {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li,
+.auth-section li {
+  margin-right: 20px;
+}
+
+.auth-link {
+  background-color: #ffc107;
+  color: #333;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.auth-link:hover {
+  background-color: #333;
+  color: white;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid #ffc107;
+}
+
+.cart-image {
+  width: 35px; /* Adjust the width as needed */
+  height: 35px; /* Adjust the height as needed */
+  margin-right: 5px; /* Add some space to the right of the image */
+  margin-top: 5px; /* Add some space to the right of the image */
+}

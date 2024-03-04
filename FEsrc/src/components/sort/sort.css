@@ -1,0 +1,42 @@
+/* sort.css */
+
+.sort-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.sort-options {
+  margin-bottom: 15px;
+}
+
+.sort-button {
+  margin-right: 8px;
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  background-color: cadetblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sort-button:hover {
+  background-color: darkslategray;
+}
+
+.sort-button:active {
+  background-color: darkslategray;
+}
+
+.sort-options p {
+  font-weight: bold;
+  color: aliceblue;
+}
+
+/* Adaugă un stil pentru a indica ordinea sortării */
+.sort-options button.desc {
+  transform: rotate(180deg); /* Rotire pentru săgeată în jos pentru sortare descendentă */
+}

@@ -1,0 +1,52 @@
+/* Authentication.css */
+
+.auth-container {
+    max-width: 400px;
+    margin-top: 150px;
+    margin-left: 550px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: darkcyan;
+  }
+  
+  .auth-container label {
+    display: block;
+  }
+  
+  .auth-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .auth-container button {
+    background-color: darkslategrey;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  
+  .auth-container p {
+    margin-top: 16px;
+  }
+  
+  
+  .auth-container button:hover {
+    background-color: cadetblue;
+  }
+
+ 
+  
+
+  
+
+  
+  

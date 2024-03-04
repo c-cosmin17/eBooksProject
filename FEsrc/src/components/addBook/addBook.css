@@ -1,0 +1,48 @@
+/* AddBook.css */
+
+.add-book-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+.add-book-header {
+    text-align: center;
+    color: #333;
+}
+
+.add-book-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-book-label {
+    margin-bottom: 10px;
+}
+
+.add-book-input {
+    padding: 8px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.add-book-button {
+    width: 30%;
+    margin-right: 28px;
+    margin-left: 58px;
+    margin-bottom: 8px;
+    padding: 8px 12px;
+    background-color: darkcyan; /* Blue background color */
+    color: white; /* Text color */
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.add-book-button:hover {
+    background: lightseagreen;
+}

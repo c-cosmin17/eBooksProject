@@ -1,0 +1,39 @@
+/* CSS */
+
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left; /* Center the content horizontally */
+  text-align: left; /* Center the text within the container */
+}
+
+.category-filters,
+.type-filters {
+  margin-bottom: 15px;
+}
+
+.filter-button {
+  margin-right: 8px;
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  background-color: cadetblue; /* Blue background color */
+  color: white; /* Text color */
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.filter-button:hover {
+  background-color: darkslategray; /* Darker blue on hover */
+}
+
+.filter-button:active {
+  background-color: darkslategray; /* Darker blue when clicked */
+}
+
+.category-filters p,
+.type-filters p {
+  font-weight: bold;
+  color: aliceblue;
+}

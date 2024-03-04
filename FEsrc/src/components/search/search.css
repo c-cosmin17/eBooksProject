@@ -1,0 +1,26 @@
+/* Search.css */
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-radius: 16px;
+}
+
+
+
+input {
+  padding: 12px; /* Slightly increased padding */
+  border: 2px solid #f0d6a3; /* Green border */
+  border-radius: 6px; /* Rounded corners */
+  width: 400px;
+  transition: border-color 0.3s ease; /* Smooth border transition */
+  background-color: bisque;
+}
+
+/* Hover effect for input */
+input:hover,
+input:focus {
+  border-color: #2196f3; /* Blue border on hover/focus */
+}

@@ -1,0 +1,39 @@
+.manage-container {
+    margin-bottom: 20px;
+    margin-top: 250px;
+    text-align: center;
+    border: solid;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-color: whitesmoke;
+    background-color: darkslategray;
+  }
+  
+  .manage-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center; /* Asează butoanele pe orizontală în centru */
+  }
+  
+  .manage-container button {
+    
+    padding: 8px 12px;
+    background-color: darkslategray;
+    color: #fff;
+    border: solid;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 55px;
+    width: 250px;
+    height: 70px;
+  }
+  
+  .manage-container button:hover {
+    background-color: darkcyan;
+  }
+  
+  .manage-container button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+  }
+  

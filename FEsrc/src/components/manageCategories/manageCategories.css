@@ -1,0 +1,42 @@
+/* manage-categories.css */
+
+.manage-categories-container {
+    margin: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  .manage-categories-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    color: #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: darkcyan;
+  }
+  
+  .manage-categories-details {
+    flex-grow: 1;
+    margin-right: 20px;
+  }
+  
+  .manage-categories-button {
+    padding: 8px 12px;
+    background-color: darkcyan;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+    width: 100px;
+    height: 30px;
+  }
+  
+  .manage-categories-button:hover {
+    background-color: cadetblue;
+  }
+  
+  

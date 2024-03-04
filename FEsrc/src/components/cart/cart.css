@@ -1,0 +1,118 @@
+.cart-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.empty-cart-container{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #fff; /* Add a white border */
+  border-radius: 8px; /* Optional: Add border radius for a rounded appearance */
+  text-align: center; /* Center the content horizontally */
+  border-color: #f0f0f0; /* Optional: Add a background color */
+  background-color: darkslategrey;
+}
+
+.empty-back-to-books button{
+  margin-right: 8px;
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  background-color: cadetblue; /* Blue background color */
+  color: white; /* Text color */
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.empty-back-to-books button:hover{
+  background-color: darkslategrey; /* Blue background color */
+}
+
+.cart-items {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-item-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: darkslategray;
+  color: #FFF;
+}
+
+.cart-item-cover {
+  max-width: 50px;
+  margin-right: 10px;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  color: #FFF;
+}
+
+.cart-item-details button {
+  margin-right: 8px;
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  background-color: cadetblue; /* Blue background color */
+  color: white; /* Text color */
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.order-confirmation {
+  background-color: cadetblue;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.cart-total button {
+  margin-right: 8px;
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  background-color: darkslategray; /* Blue background color */
+  color: white; /* Text color */
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.cart-total button:hover {
+  background-color: cadetblue; /* Darker blue on hover */
+}
+
+.back-to-books {
+  margin-top: 20px;
+}
+
+.back-to-books button {
+  margin-right: 8px;
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  background-color: darkslategray; /* Blue background color */
+  color: white; /* Text color */
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.back-to-books button:hover {
+  background-color: cadetblue; /* Darker blue on hover */
+}
+

@@ -1,0 +1,74 @@
+/* Books.css */
+
+.books-container {
+  display: flex;
+  height: 95vh; /* 100% of the viewport height */
+  width: 95vw; /* 100% of the viewport width */
+  
+}
+
+.sidebar {
+  width: 350px;
+  padding: 20px;
+  background-color: darkslategray;
+  height: 100%;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  max-width: 800px; /* Set your desired maximum width */
+  margin: 0 auto; /* Center the content by setting left and right margins to auto */
+  width: 100%; 
+  max-height: 800px; /* Set your desired maximum width */
+
+}
+
+.books-list {
+  list-style: none;
+  padding: 20;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.books-item {
+  display: flex;
+  flex-direction: column;
+  max-width: 180px; /* Set your desired maximum width for each book item */
+  max-height: 250px; /* Set your desired maximum width for each book item */
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+.books-cover {
+  width: 100%;
+  height: 200px;
+}
+
+.books-details {
+  flex-grow: 1;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: whitesmoke;
+}
+.pagination button:hover{
+  background-color: darkslategray;
+}
+
+.pagination button{
+  background-color: cadetblue;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  color: white; /* Text color */
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
